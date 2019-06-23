@@ -1,4 +1,4 @@
-# Machine Learning algorithms
+# Machine Learning Algorithms
  In a world where nearly all manual tasks are being automated, the definition of manual is changing. Machine Learning algorithms can help computers play chess, perform surgeries, and get smarter and more personal.
 
 We are living in an era of constant technological progress, and looking at how computing has advanced over the years, we can predict what’s to come in the days ahead. 
