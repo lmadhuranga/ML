@@ -73,10 +73,12 @@ In today's world, vast amounts of data are being stored and analyzed by corporat
 
 Dimensionality reduction algorithms like Decision Tree, Factor Analysis, Missing Value Ratio, and Random Forest can help you find relevant details.
 
-## 10. Gradient Boosting & AdaBoost
+## . Gradient Boosting & AdaBoost
 These are boosting algorithms used when massive loads of data have to be handled in order to make predictions with high accuracy. Boosting is an ensemble learning algorithm that combines the predictive power of several base estimators to improve robustness.
 
 In short, it combines multiple weak or average predictors to a build strong predictor. These boosting algorithms always work well in data science competitions like Kaggle, AV Hackathon, CrowdAnalytix. These are the most preferred machine learning algorithms today. Use them along with Python and R Codes to achieve accurate outcomes.
 
+## 0.9 Catboost
+A fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regression and other machine learning tasks for Python, R, Java, C++. Supports computation on CPU and GPU. https://catboost.ai
 
 ref  : https://www.simplilearn.com/10-algorithms-machine-learning-engineers-need-to-know-article
