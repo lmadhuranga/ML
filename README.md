@@ -79,6 +79,8 @@ These are boosting algorithms used when massive loads of data have to be handled
 In short, it combines multiple weak or average predictors to a build strong predictor. These boosting algorithms always work well in data science competitions like Kaggle, AV Hackathon, CrowdAnalytix. These are the most preferred machine learning algorithms today. Use them along with Python and R Codes to achieve accurate outcomes.
 
 ## 0.9 Catboost
+[Colab](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/9.Catboost_pydaata2019.ipynb)
+
 A fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regression and other machine learning tasks for Python, R, Java, C++. Supports computation on CPU and GPU. https://catboost.ai
 
 ref  : https://www.simplilearn.com/10-algorithms-machine-learning-engineers-need-to-know-article
