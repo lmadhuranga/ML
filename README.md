@@ -53,10 +53,14 @@ Things to consider before selecting KNN:
 KNN is computationally expensive
 Variables should be normalized, or else higher range variables can bias the algorithm
 Data still needs to be pre-processed.
-##  7. K-Means [Colab 7_k-means.ipynb](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/7_k-means.ipynb)
+
+
+##  7. K-Means 
+[Colab 7_k-means.ipynb](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/7_k-means.ipynb)
 [Colab 7_k-means_cluster_comparison.ipynb](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/7_k-means_cluster_comparison.ipynb)
 [Colab 7_k-means_dbscan.ipynb](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/7_k-means_dbscan.ipynb)
 [Colab 7_k-means_linkage_comparison.ipynb](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/7_k-means_linkage_comparison.ipynb)
+
 This is an unsupervised algorithm which solves clustering problems. Data sets are classified into a particular number of clusters (let's call that number K) in such a way that all the data points within a cluster are homogenous, and heterogeneous from the data in other clusters.
 
 How K-means forms clusters:
@@ -67,7 +71,7 @@ It now creates new centroids, based on the existing cluster members.
 With these new centroids, the closest distance for each data point is determined. This process is repeated until the centroids do not change.
 
 
-8. Random Forest [Colab 8_Random_forest_titanic.ipynb](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/8_Random_forest_titanic.ipynb)
+## 8. Random Forest [Colab 8_Random_forest_titanic.ipynb](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/8_Random_forest_titanic.ipynb)
 
 A collective of decision trees is called a Random Forest. To classify a new object based on its attributes, each tree is classified, and the tree “votes” for that class. The forest chooses the classification having the most votes (over all the trees in the forest).
 
@@ -78,7 +82,7 @@ If there are M input variables, a number m<<M is specified such that at each nod
 Each tree is grown to the largest extent possible. There is no pruning. 
 
 
-9. Dimensionality Reduction Algorithms  
+## 9. Dimensionality Reduction Algorithms  
 
 In today's world, vast amounts of data are being stored and analyzed by corporates, government agencies and research organizations. As a data scientist, you know that this raw data contains a lot of information - the challenge is in identifying significant patterns and variables.
 
