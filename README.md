@@ -53,10 +53,10 @@ Things to consider before selecting KNN:
 KNN is computationally expensive
 Variables should be normalized, or else higher range variables can bias the algorithm
 Data still needs to be pre-processed.
-##  7. K-Means [Colab](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/7_k-means.ipynb)
-[Colab](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/7_k-means_cluster_comparison.ipynb)
-[Colab](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/7_k-means_dbscan.ipynb)
-[Colab](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/7_k-means_linkage_comparison.ipynb)
+##  7. K-Means [Colab 7_k-means.ipynb](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/7_k-means.ipynb)
+[Colab 7_k-means_cluster_comparison.ipynb](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/7_k-means_cluster_comparison.ipynb)
+[Colab 7_k-means_dbscan.ipynb](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/7_k-means_dbscan.ipynb)
+[Colab 7_k-means_linkage_comparison.ipynb](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/7_k-means_linkage_comparison.ipynb)
 This is an unsupervised algorithm which solves clustering problems. Data sets are classified into a particular number of clusters (let's call that number K) in such a way that all the data points within a cluster are homogenous, and heterogeneous from the data in other clusters.
 
 How K-means forms clusters:
@@ -67,7 +67,7 @@ It now creates new centroids, based on the existing cluster members.
 With these new centroids, the closest distance for each data point is determined. This process is repeated until the centroids do not change.
 
 
-8. Random Forest [Colab](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/8_Random_forest_titanic.ipynb)
+8. Random Forest [Colab 8_Random_forest_titanic.ipynb](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/8_Random_forest_titanic.ipynb)
 
 A collective of decision trees is called a Random Forest. To classify a new object based on its attributes, each tree is classified, and the tree “votes” for that class. The forest chooses the classification having the most votes (over all the trees in the forest).
 
@@ -78,7 +78,7 @@ If there are M input variables, a number m<<M is specified such that at each nod
 Each tree is grown to the largest extent possible. There is no pruning. 
 
 
-9. Dimensionality Reduction Algorithms [Colab](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/9.Catboost_pydaata2019.ipynb)
+9. Dimensionality Reduction Algorithms  
 
 In today's world, vast amounts of data are being stored and analyzed by corporates, government agencies and research organizations. As a data scientist, you know that this raw data contains a lot of information - the challenge is in identifying significant patterns and variables.
 
@@ -90,7 +90,7 @@ These are boosting algorithms used when massive loads of data have to be handled
 In short, it combines multiple weak or average predictors to a build strong predictor. These boosting algorithms always work well in data science competitions like Kaggle, AV Hackathon, CrowdAnalytix. These are the most preferred machine learning algorithms today. Use them along with Python and R Codes to achieve accurate outcomes.
 
 ## 0.9 Catboost
-[Colab](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/9.Catboost_pydaata2019.ipynb)
+[Colab 9.Catboost_pydaata2019.ipynb](https://colab.research.google.com/github/lmadhuranga/ML/blob/master/9.Catboost_pydaata2019.ipynb)
 
 A fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regression and other machine learning tasks for Python, R, Java, C++. Supports computation on CPU and GPU. https://catboost.ai
 
